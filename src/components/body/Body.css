@@ -9,6 +9,6 @@
     display: flex !important;
     justify-content: center !important;
 }
-/* .makeitcenter {
-    text-align: center !important;
+/* .tab-pane.fade {
+    display: none !important;
 } */
