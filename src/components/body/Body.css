@@ -1,0 +1,14 @@
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #6A6A6A !important;
+    background-color: #f7f7ff !important;
+    border: none !important;
+    border-bottom: 1px solid #6A6A6A !important;
+}
+.nav-tabs {
+    border: none !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+/* .makeitcenter {
+    text-align: center !important;
+} */

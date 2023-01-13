@@ -1,20 +1,8 @@
 export default function Header() {
-    return (
-        <div className="p-4 bg-transparent md:flex md:items-center md:justify-center">
-            <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
-                <li>
-                    <a href="/#" className="mr-4 font-bold tracking-widest cursor-pointer text-lg text-white md:mr-6 ">HOME</a>
-                </li>
-                <li>
-                    <a href="/#" className="mr-4 font-bold tracking-widest cursor-pointer text-lg text-white md:mr-6">ABOUT</a>
-                </li>
-                <li>
-                    <a href="/#" className="mr-4 font-bold tracking-widest cursor-pointer text-lg text-white md:mr-6">RESUME</a>
-                </li>
-                <li>
-                    <a href="/#" className="cursor-pointer font-bold tracking-widest text-lg text-white">WORKS</a>
-                </li>
-            </ul>
-        </div>
-    );
+  return (
+    <div className="bg-[#f7f7ff] text-center pt-[10px] pb-[10px]">
+        <h1 className="font-medium tracking-wide text-[35px] text-[#6A6A6A]">Srinivasan</h1>
+        <h3 className="tracking-wide text-[18px] text-[#6A6A6A]">Frontend Developer</h3>
+    </div>
+  )
 }

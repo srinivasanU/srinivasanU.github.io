@@ -1,16 +1,15 @@
 import React from 'react'
-import ParticlesBg from "particles-bg";
-// import Header from '../header/Header'
-// import Footer from '../footer/Footer'
-import Home from '../home/Home'
+import Header from '../header/Header'
+import Body from '../body/Body'
+import Footer from '../footer/Footer'
+import {resumedata} from '../data/data';
 
 export default function Content() {
     return (
-        <div className="App flex flex-col h-screen">
-            <ParticlesBg type="circle" bg={true} />
-            {/* <Header /> */}
-            <Home />
-            {/* <Footer /> */}
+        <div className="container App flex flex-col h-screen">
+            <Header />
+            <Body {...resumedata}/>
+            <Footer />
         </div>
     )
 }
